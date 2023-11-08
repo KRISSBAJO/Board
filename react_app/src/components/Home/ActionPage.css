@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 5%;
+    background-color: #ffffff;
+    font-family: 'Poiret One', sans-serif, 'Signika Negative', sans-serif;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.03);
+}
+
+.left-section,
+.right-section {
+    flex: 1 1 100%;
+    padding: 10px 0;
+}
+
+.right-section.illustration-section img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.sub-heading {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    color: #7f8c8d;
+}
+
+.call-to-action {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 0.8em;
+    background-color: #f38612;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.video-title{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+.collaboration-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #f39c12;
+
+}
+.video-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #f39c12;
+    word-wrap: break-word;
+    overflow-wrap: break-word;  
+    hyphens: auto;
+
+}
+
+
+.media-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 241, 246);
+}
+
+.video-player {
+  
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    .left-section,
+    .right-section {
+        flex: 1 1 45%;
+    }
+
+    .heading {
+        font-size: 3em;
+    }
+
+    .sub-heading {
+        font-size: 1.5em;
+    }
+
+    .media-card {
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .video-player {
+        margin-right: 10px;
+        max-width: 50%;
+    }
+}

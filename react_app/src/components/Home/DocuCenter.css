@@ -1,0 +1,13 @@
+.custom-gradient {
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #69dbe8, #ffffff, #ffffff);
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&family=Bungee+Spice&family=Finger+Paint&family=Playpen+Sans:wght@700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,500&family=Port+Lligat+Sans&display=swap');
+.h1 {
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Bungee Spice', sans-serif;
+font-family: 'Finger Paint', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Port Lligat Sans', sans-serif;
+font-size: xx-large;
+}

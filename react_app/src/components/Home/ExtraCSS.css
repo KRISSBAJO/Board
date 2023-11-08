@@ -1,0 +1,20 @@
+/* ExtraCSS.css */
+button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&family=Bungee+Spice&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500&family=Bungee+Spice&family=Finger+Paint&family=Playpen+Sans:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,500&family=Port+Lligat+Sans&display=swap');
+  .doccenter{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Bungee Spice', sans-serif;
+font-family: 'Finger Paint', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Port Lligat Sans', sans-serif;
+  }
+  
