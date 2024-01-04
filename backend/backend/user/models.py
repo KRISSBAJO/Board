@@ -31,6 +31,8 @@ class UserRole(Enum):
     ADMIN = 'Admin'
     EMPLOYEE = 'Employee'
     MANAGER = 'Manager'
+    AGENT = 'Agent'
+    
     
     # Add more roles if needed
 
@@ -150,3 +152,19 @@ class Invitation(models.Model):
 def create_auth_token(sender, instance=None, created=False, **kwargs):
     if created:
         Token.objects.create(user=instance)
+
+
+class Agent(models.Model):
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL, 
+        on_delete=models.CASCADE,
+        related_name='agent'
+    )
+    # Agent-specific fields
+    company_name = models.CharField(max_length=255, blank=True, null=True)
+    website = models.URLField(blank=True, null=True)
+    npn = models.CharField(max_length=20, blank=True, null=True)  # National Producer Number
+    # other agent-specific fields
+
+    def __str__(self):
+        return f'Agent: {self.user.full_name}'

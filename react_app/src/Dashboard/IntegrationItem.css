@@ -1,0 +1,48 @@
+.integrations-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: inline-block;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.integration-category h2 {
+  margin-bottom: 20px;
+}
+
+.integrations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.integration-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.integration-info {
+  margin-top: 10px;
+}
+
+.integration-info h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.integration-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.integration-check {
+  color: #2ecc71;
+  margin-top: 10px;
+}

@@ -18,6 +18,7 @@ export const ENDPOINTS = {
     DOCUMENT: `${MAIN_API_BASE_URL}documents/`,
     DOCUMENT_TYPE: `${MAIN_API_BASE_URL}document_types/`,
     TAGS: `${MAIN_API_BASE_URL}tags/`,
+    AGENTS: `${MAIN_API_BASE_URL}agents/`,
     
 
 };

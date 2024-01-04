@@ -1,0 +1,63 @@
+/* BookingPolicy.css */
+.booking-policy {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 840px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #102a43;
+  border-bottom: 2px solid #c8d8eb;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.policy-form {
+  display: grid;
+  grid-gap: 16px;
+}
+
+.policy-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.policy-row label {
+  font-size: 16px;
+  color: #102a43;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.policy-row select {
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 2px solid #c8d8eb;
+  border-radius: 8px;
+  appearance: none; /* Removes default styling of select dropdown */
+  background-color: #eef6fd;
+  color: #102a43;
+}
+
+.policy-row select:hover,
+.policy-row select:focus {
+  border-color: #a4cafe;
+  outline: none;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .booking-policy {
+    padding: 20px;
+  }
+  
+  .policy-row select {
+    padding: 8px 10px;
+  }
+}

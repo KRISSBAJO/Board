@@ -201,3 +201,37 @@ export const updateProfilePicture = async (userId, file) => {
         };
     }
 };
+
+// Agents 
+export const createAgent = async (agentData) => {
+    return await apiRequest('POST', ENDPOINTS.AGENTS, agentData, true);
+};
+
+// READ (GET) - All Agents
+export const getAllAgents = async () => {
+    return await apiRequest('GET', ENDPOINTS.AGENTS, null, true);
+};
+
+// READ (GET) - Single Agent
+export const getAgentById = async (agentId) => {
+    const endpoint = `${ENDPOINTS.AGENTS}${agentId}/`;
+    return await apiRequest('GET', endpoint, null, true);
+};
+
+// UPDATE (PUT)
+export const updateAgent = async (agentId, updatedData) => {
+    const endpoint = `${ENDPOINTS.AGENTS}${agentId}/`;
+    return await apiRequest('PUT', endpoint, updatedData, true);
+};
+
+// DELETE
+export const deleteAgent = async (agentId) => {
+    const endpoint = `${ENDPOINTS.AGENTS}${agentId}/`;
+    return await apiRequest('DELETE', endpoint, null, true);
+};
+
+// List  Agents
+export const listAgents = async () => {
+    return await apiRequest('GET', ENDPOINTS.AGENTS, null, true);
+};
+

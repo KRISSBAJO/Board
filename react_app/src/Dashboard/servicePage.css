@@ -1,0 +1,180 @@
+.service-page {
+    display: flex;
+    height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  
+  .service-sidebar {
+    width: 240px;
+    background-color: #F8F9FA;
+    padding: 20px;
+  }
+  
+  .service-categories h3 {
+    margin-bottom: 20px;
+    color: #6f7172;
+    font-weight: 600;
+  }
+  
+  .add-category-btn {
+    background-color: #e9ecef;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .categories-list p {
+    margin-bottom: 10px;
+  }
+  
+  .service-main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-list .service-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.05);
+    color:#6f7172
+  }
+  
+  .service-icon {
+    margin-right: 10px;
+  }
+  
+  .service-info {
+    flex-grow: 1;
+  }
+  
+  .share-btn, .settings-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .add-service-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .category-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .service-selection {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .select-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-box {
+    margin-bottom: 10px;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .modal-actions button {
+    margin-left: 10px;
+  }
+
+  .search-box {
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 20px; /* Rounded corners */
+    outline: none; /* Removes the outline */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); /* Inner shadow */
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    z-index: 10;
+  }
+  
+  .clear-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  /* When the input field is focused, change border color */
+  .search-input:focus {
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(102, 175, 233, .6);
+  }
+  

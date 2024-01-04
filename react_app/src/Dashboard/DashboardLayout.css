@@ -1,0 +1,123 @@
+/* DashboardLayout.css */
+.dashboard-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .nav-menu {
+    flex-grow: 1;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #777474;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .nav-link svg {
+    margin-right: 10px;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    background-color: #89ee89;
+    color: white;
+  }
+  
+  .action-items {
+    margin-top: auto; /* Push action items to the bottom */
+  }
+  
+  .action-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+  }
+  
+  .action-link i {
+    margin-right: 8px;
+  }
+  
+  .share {
+    color: #4a90e2;
+  }
+  
+  .try-pro {
+    color: #5cb85c;
+    background-color: #dff0d8;
+  }
+  
+  .help-support {
+    color: #f0ad4e;
+  }
+  
+  .booking-link {
+    display: block;
+    color: #999;
+    margin-top: 4px;
+    font-size: 0.85em;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Main content area */
+  .content {
+    flex-grow: 1; /* Take up the remaining space */
+    background-color: white; /* Background color for the content area */
+    overflow-y: auto; /* Add vertical scroll */
+    padding: 20px; /* Padding inside the content area */
+  }
+  

@@ -1,0 +1,55 @@
+.download-app-container {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .download-app-container .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* This adds a dark overlay to the image */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .download-app-container .text-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .download-app-container .text-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .download-app-container .text-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .download-app-container .text-content .download-button {
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    color: white;
+    background-color: #007bff; /* Or any color that fits your design */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .download-app-container .text-content .download-button:hover {
+    background-color: #0069d9; /* Darkened version of #007bff */
+  }
+  
+  .download-app-container .text-content .download-button .fa-download {
+    margin-right: 0.5rem;
+  }
+  

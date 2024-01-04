@@ -58,7 +58,7 @@ const handleAutoPlay = () => {
 
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white relative">
+    <div className="flex items-center justify-center max-w-6xl mx-auto min-h-screen mb-20 mt-20 bg-slate-200 relative">
       <AnimatePresence initial={false}>
         <motion.div
           key={currentIndex}
@@ -67,7 +67,7 @@ const handleAutoPlay = () => {
           animate="center"
           exit="exit"
           transition={{ duration: 1 }}
-          className="max-w-2xl p-10 rounded-xl bg-blue-50 bg-opacity-90 shadow-2xl flex flex-col items-center"
+          className="max-w-2xl p-10 rounded-xl bg-white bg-opacity-90 shadow-2xl flex flex-col items-center"
         >
           <span className="text-6xl text-gray-300">“</span>
           <p className="text-center text-xl font-medium text-gray-800 px-8">

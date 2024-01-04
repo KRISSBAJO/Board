@@ -1,0 +1,63 @@
+/* Header.css */
+
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Ensure the header stays above other content */
+  }
+  
+  .collapsed {
+    display: none;
+  }
+  /* Base styles for the dropdown */
+.dropdown {
+    display: none; /* Hide by default */
+    position: absolute;
+    background-color: white;
+    /* Other styling as necessary */
+  }
+  
+  /* Show the dropdown when isOpen is true */
+  .dropdown.block {
+    display: block;
+  }
+  
+  /* Responsive styles using media queries */
+  @media (max-width: 768px) {
+    /* Adjust header styles for mobile screens */
+    .header-nav {
+      display: block;
+      position: absolute;
+      /* Other necessary styles for a mobile-friendly navigation */
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300&family=Signika+Negative&display=swap');
+
+
+h1{
+font-family: 'Poiret One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=Poiret+One&family=Poppins:wght@300&family=Signika+Negative&display=swap');
+
+p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Poiret One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  }
+  

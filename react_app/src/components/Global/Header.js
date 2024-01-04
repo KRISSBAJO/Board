@@ -33,7 +33,7 @@ const Header = () => {
         <header className="flex justify-between bg-slate-500 items-center p-5 shadow-lg">
             <div className="logo-container flex items-center space-x-4">
                 <Link to="/" className="flex items-center space-x-4">
-                    <img src={logo} alt="LogaXP Logo" className="h-16 w-auto rounded-md shadow-lg p-1" />
+                    <img src={logo} alt="LogaXP Logo" className="h-14 w-auto rounded-md shadow-lg p-1" />
                     <h2 className="text-2xl font-bold text-white hidden md:inline">DocCenter</h2>
                 </Link>
             </div>

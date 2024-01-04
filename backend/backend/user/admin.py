@@ -18,3 +18,9 @@ from .models import Invitation
 @admin.register(Invitation)
 class InvitationAdmin(admin.ModelAdmin):
     list_display = ['email', 'inviter', 'date_sent', 'used']
+
+
+from django.contrib import admin
+from .models import Agent
+
+admin.site.register(Agent)

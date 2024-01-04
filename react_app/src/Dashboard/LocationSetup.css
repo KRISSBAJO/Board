@@ -1,0 +1,67 @@
+/* LocationSetup.css */
+.location-setup {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+  }
+  
+  .location-sidebar {
+    flex: 0 0 300px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100%;
+   
+  }
+  
+  .location-sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #f7f7f7;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .location-sidebar button:hover {
+    background: #e7e7e7;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .btn-allow, .btn-pick, .btn-submit, .btn-search {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-allow:hover, .btn-pick:hover, .btn-submit:hover, .btn-search:hover {
+    background-color: #0056b3;
+  }
+  
+  .content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content form select {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content input[type="search"] {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .btn-search {
+    display: inline-block;
+  }
+  

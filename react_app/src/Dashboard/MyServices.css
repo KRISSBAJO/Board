@@ -1,0 +1,142 @@
+.my-services-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+
+  .add-service-btn:hover {
+    background-color: #4cae4c;
+  }
+  
+  .service-category {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .service-category h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .service-description {
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .service-duration,
+  .service-price {
+    margin-right: 20px;
+  }
+  
+  .service-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .service-actions button:hover {
+    background-color: #eee;
+  }
+  
+  .share-btn {
+    margin-right: 10px;
+  }
+  
+  .options-btn {
+    color: #666;
+  }
+  
+  /* Add responsive design as needed */
+  .service-actions .options-btn.active {
+    background-color: #ececec;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+   margin-right: 70px !important;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    top: 40%;
+  }
+  
+  .service-item:hover .dropdown-menu {
+    display: flex; /* Show dropdown on hover or focus */
+  }
+  
+  .close-dropdown {
+    background: none;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f7f7f7;
+  }  
+
+  .my-services-layout {
+    display: flex;
+  }
+  
+  .services-sidebar {
+    width: 250px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #e1e4e8;
+    height: 100vh;
+  }
+  
+  .services-main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .add-service-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%; /* Adjust as needed */
+  }

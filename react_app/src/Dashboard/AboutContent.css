@@ -1,0 +1,33 @@
+/* ... existing styles ... */
+
+.about-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .about-row svg {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .about-row a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .about-row a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add more styles as needed */
+  

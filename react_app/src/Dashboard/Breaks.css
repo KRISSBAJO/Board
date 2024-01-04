@@ -1,0 +1,58 @@
+.breaks-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .break-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .break-day {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .break-time {
+    display: flex;
+    align-items: center;
+  }
+  
+  .break-time span {
+    margin-right: 10px;
+  }
+  
+  .add-break, .remove-break {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .add-break:hover, .remove-break:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-break {
+    background-color: #dc3545;
+  }
+  
+  .remove-break:hover {
+    background-color: #c82333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  

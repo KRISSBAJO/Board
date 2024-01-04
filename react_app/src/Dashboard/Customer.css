@@ -1,0 +1,61 @@
+.customers-page {
+    display: flex;
+  }
+  
+  .customer-sidebar {
+    width: 240px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .customer-content {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn.add-customer {
+    background-color: #28a745;
+  }
+  
+  .btn.add-customer:hover {
+    background-color: #218838;
+  }
+  
+  .btn.import-customers {
+    background-color: #17a2b8;
+  }
+  
+  .btn.import-customers:hover {
+    background-color: #138496;
+  }
+  

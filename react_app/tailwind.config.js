@@ -8,6 +8,7 @@ module.exports = {
       },
       maxHeight: {
         '128': '30rem',
+        '252': '40rem',
       },
       width: {
         '84': '21rem',    // 84/4 = 21

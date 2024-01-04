@@ -1,0 +1,78 @@
+.integrations-container {
+    /* Add your styles here */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .integration-item {
+    /* Add your styles here */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .integration-icon {
+    /* Adjust if necessary */
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .integration-details h3 {
+    /* Add your styles here */
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .integration-details p {
+    /* Add your styles here */
+    margin: 4px 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .disconnect-button, .connect-button, .get-link-button {
+    /* Shared button styles */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .disconnect-button {
+    /* Specific styles for disconnect button */
+    background-color: #db4437;
+    color: white;
+   
+  }
+  
+  .connect-button {
+    /* Specific styles for connect button */
+    background-color: #4285f4;
+    color: white;
+   
+    align-items: end;
+  }
+  
+  .get-link-button {
+    /* Specific styles for get link button */
+    background-color: #0f9d58;
+    color: white;
+  }
+  
+  .link-calendar {
+    /* Add your styles here */
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  

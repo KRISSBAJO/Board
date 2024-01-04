@@ -1,0 +1,83 @@
+/* SettingsPageLayout.css */
+.settings-layout {
+    display: flex;
+    height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s;
+    position: relative;
+  }
+  
+  .sidebar-item.active,
+  .sidebar-item:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+.seetings-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #732424;
+  }
+  
+ 
+  .sidebar-item .dropdown-menu {
+    display: none; /* Hide dropdown menu initially */
+    position: absolute; /* Position absolutely to the sidebar item */
+    left: 100%; /* Position to the right of the sidebar item */
+    top: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px; /* Set a fixed width for dropdown */
+    z-index: 1000;
+  }
+  
+  .sidebar-item.active .dropdown-menu {
+    display: block; /* Show dropdown when the item is active */
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #eee;
+  }

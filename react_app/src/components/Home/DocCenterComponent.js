@@ -6,7 +6,7 @@ const DocCenterComponent = () => {
     return (
         <div className="flex flex-col items-center justify-center h-full p-10">
             {/* Image */}
-            <img src={ docIcon3} alt="DocCenter Usage" className="w-2/4 rounded-lg mb-8"/>
+            <img src={ docIcon3} alt="DocCenter Usage" className="w-3/5 rounded-lg mb-8"/>
 
             {/* Main Heading */}
             <h1 className="text-4xl font-bold mb-4">DocCenter</h1>

@@ -1,0 +1,109 @@
+/* OverViewPage.css */
+.overview-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .booking-page-info {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-page-info h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .booking-page-info p {
+    margin-bottom: 10px;
+  }
+  
+  .booking-url label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .booking-url a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .connect-apps p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .app-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+  }
+  
+  .app-icons .faFacebookF {
+    color: #3b5998;
+  }
+  
+  .app-icons .faInstagram {
+    color: #e1306c;
+  }
+  
+  .app-icons .faMeetup {
+    color: #f64060;
+  }
+  
+  /* ... other icon colors ... */
+  
+  .brand-details {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .brand-info {
+    flex-grow: 1;
+  }
+  
+  .brand-info input,
+  .brand-info select,
+  .brand-info textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 15px;
+  }
+  
+  .brand-info textarea {
+    height: 100px;
+  }
+  
+  .btn-cancel,
+  .btn-save {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-cancel {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .btn-save {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Add any additional styling as needed */
+  

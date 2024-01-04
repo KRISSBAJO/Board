@@ -1,0 +1,493 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,100&family=Farsan&family=Lora:ital@1&family=Poiret+One&family=Poppins:ital,wght@0,300;0,600;1,100;1,200&family=Signika+Negative&display=swap');
+
+
+.calendar-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #f0f2f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .calendar-sidebar {
+    width: 250px;
+    background-color: #f0f2f5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .calendar-list {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-content {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+  
+  .calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-direction: column;
+  }
+  
+  .account-info {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .account-email {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .calendar-main {
+    flex-grow: 1;
+    background-color: white;
+    overflow: hidden;
+    
+    
+  }
+  
+  .calendar-controls {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-account {
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .account-info {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .account-email {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .connect-calendar {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .rbc-event {
+    background-color: #3174ad; /* Example color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 0.8em;
+  }
+  
+  .rbc-today {
+    background-color: #f6f6f6;
+  }
+  
+  .rbc-header {
+    background-color: #f6f6f6;
+    padding: 5px 0;
+  }
+
+ 
+  .header-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    color: rgb(232, 65, 65);
+  }
+  
+  .header-controls {
+    position: relative;
+  }
+
+  .header-section h2 {
+    margin-left: 10px; /* Add some space between the icon and text */
+    font-size: 1.25rem; /* Adjust font size as needed */
+    color: #333; /* Color for the text */
+  }
+ 
+  
+  .dropdown-menus ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menus li {
+    padding: 3px 20px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menus li:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-left: 340px;
+  }
+  
+  .share-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333; 
+    padding: 5px 10px;
+    font-size: 1rem; 
+  }
+  
+  .share-button:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .share-button span {
+    margin-left: 5px;
+  }
+
+.header-share-button{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff; 
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 10px;;
+    background-color: rgb(94, 156, 236);
+}
+.dropdown-menus {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 100;
+    right: 0; /* Adjust if necessary */
+    width: 200px; /* Adjust if necessary */
+    display: none;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    float: left;
+    min-width: 160px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    
+  }
+  
+  .dropdown-menus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menus li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-menus li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .shortcut {
+    font-size: 0.75rem;
+    color: #888;
+  }
+  
+  .view-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+  .pending-appointments, .quick-schedule, .settings, .notifications {
+   
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Subtle shadow for each block */
+    margin-bottom: 505px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+  }
+  
+  .calendar-profile h3, .pending-appointments h4, .task-list h4, .quick-schedule h4, .settings h4, .notifications h4 {
+    color: #333; /* Dark text for better readability */
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-weight: 600; /* Slightly bolder font for headings */
+    font-size: 1.25rem; /* Larger font size for headings */
+  }
+  
+  .profile-pic {
+    width: 60px; /* Slightly larger profile picture */
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #e7e7e7; /* Add border to profile pic */
+    margin-bottom: 15px;
+  }
+  
+ .view-all-btn, .quick-add-btn {
+    display: block; /* Make buttons block level for full-width */
+    width: 50%; /* Full-width buttons */
+    text-align: center; /* Center button text */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #1a1b1b; /* Blue background color */
+    color: white;
+    padding: 7px 10px; /* Larger padding for touch targets */
+    font-weight: 500; /* Medium font weight for buttons */
+    letter-spacing: 0.5px; /* Slight letter-spacing for modern feel */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    margin-top: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+  
+  .connect-calendar-btn:hover, .view-all-btn:hover, .quick-add-btn:hover, .settings-btn:hover {
+    background-color: #357abd; /* Darker shade on hover for interaction feedback */
+  }
+  
+  ul.appointment-list, .task-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .appointment-list li, .task-list li {
+    padding: 8px 0; /* Padding for list items */
+    border-bottom: 1px solid #eaeaea; /* Separator for items */
+    color: #555; /* Soft black for list item text */
+    font-size: 1.3rem; /* Smaller font size for subtlety */
+
+  }
+  
+  .appointment-list li:last-child, .task-list li:last-child {
+    border-bottom: none; /* No border for the last item */
+  }
+  
+  .notification-count {
+    background-color: #ff4500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    float: right; /* Align to right */
+  }
+  
+  /* Clear float */
+  .calendar-sidebar::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Scrollbar styles */
+  .calendar-sidebar::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .calendar-sidebar::-webkit-scrollbar-track {
+    background: #e5cbcb;
+  }
+  
+
+  
+  .calendar-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+  .connect-calendar-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+   
+
+  }
+  
+  .connect-calendar-btn {
+  
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Adjust the space between the icon and text */
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  .connect-calendar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 100;
+    width: 230px;
+  }
+  
+  .connect-calendar-menu button {
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  
+  .connect-google-btn img,
+  .connect-microsoft-btn img {
+    height: 24px; /* Adjust size to match your icons */
+    width: auto;
+    margin-right: 8px; /* Space between icon and text */
+  }
+
+
+  .calendar-style {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Poiret One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 12px;
+    color: #555;
+  }

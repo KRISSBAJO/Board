@@ -151,3 +151,13 @@ class LogoutView(APIView):
         # Django's logout function removes the authenticated user's ID from the session and flushes their session data.
         logout(request)
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+
+from rest_framework import generics
+from .models import Agent
+from .serializers import AgentSerializer
+
+class AgentCreateView(generics.CreateAPIView):
+    queryset = Agent.objects.all()
+    serializer_class = AgentSerializer

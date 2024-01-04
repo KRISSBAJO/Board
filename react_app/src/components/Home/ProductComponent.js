@@ -8,14 +8,11 @@ const ProductComponent = () => {
   return (
     <div className="bg-white p-8">
       <div style={{ position: 'relative' }}>
-        <h1 className="doccenter text-5xl font-bold mb-4 text-blue-600 md:mr-0" style={{ marginRight: 'calc(23% - 3rem)' }}>
-          <a href="/document-warehouse">DocuCenter</a>
-        </h1>
-        <h2 className="doccenter text-5xl mb-3 font-semibold md:ml-0" style={{ marginLeft: 'calc(20% - 3rem)', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-        <span style={{ fontFamily: 'sans-serif' }}>Document warehouse</span>
+        <h1 className="doccenter text-5xl mb-3 font-semibold md:ml-0" style={{ marginLeft: 'calc(44% - 3rem)', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        <span style={{ fontFamily: 'Arial, sans-serif', marginRight: '4px' }}>Document Warehouse</span>
         <span className="px-2 bg-gray-200 rounded-full">||</span>
         <span className="text-lg font-bold text-blue-600 tracking-wide">Trusted.</span>
-        </h2>
+        </h1>
       </div>
 
 
